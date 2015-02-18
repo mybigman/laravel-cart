@@ -82,6 +82,6 @@ class CartServiceProvider extends ServiceProvider
      * @return void
      */
     public function boot() {
-        $this->package('moltin/laravel-cart');
+        #$this->package('moltin/laravel-cart');
     }
 }
